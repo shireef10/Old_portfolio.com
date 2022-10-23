@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(11, 48, 112);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navi a {
+    color: rgb(11, 48, 112);
+
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navi a:hover {
+    color: rgb(72, 106, 173);
+
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.sec1 {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: wheat;
+    background: url(file:///D:/Projects/HTML/css/aaa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sec1 h2 {
+    color: white;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.sec1 h2 span {
+    display: inline-block;
+    margin: 10px;
+    color: rgb(11, 48, 112);
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.sec1-cv {
+    color: white;
+    background-color: rgb(11, 48, 112);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 15px 35px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.sec1-cv:hover {
+    background-color: rgb(72, 106, 173);
+    transform: scale(1.1);
+}
+
+.Social-icons a {
+    color: wheat;
+    font-size: 1.7 em;
+    padding-right: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(11, 48, 112);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: aliceblue;
+    width: 340px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    background-color: rgb(72, 106, 173);
+
+    transform: scale(1.1);
+}
+
+.icon {
+    color: rgb(11, 48, 112);
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: rgb(11, 48, 112);
+    font-size: 19;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.app {
+    text-align: center;
+}
+
+.app h3 {
+    color: #f0f0f0;
+    font-size: 19;
+    font-weight: 700;
+    margin: 10px;
+}
+
+
+.projects {
+    background: url(file:///D:/Projects/HTML/css/s.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(100px);
+}
+
+.projects-videos {
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.app .diss {
+    color: #f0f0f0;
+}
+
+#contact .icon {
+    font-size: 4em;
+}
+
+#contact .info h3 {
+    color: rgb(11, 48, 112);
+}
+
+#contact .info p {
+    font-size: 1em;
+    box-sizing: border-box;
+    margin-right: 50px;
+}
+
+.footer {
+    background-color: rgb(3, 18, 44);
+    color: #f0f0f0;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
